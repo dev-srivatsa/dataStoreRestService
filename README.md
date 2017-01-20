@@ -6,6 +6,7 @@ Steps to be followed:
 2. Copy paste your AWS credentials(Access key and Secret) in 'credentialsFile'
 3. Change String 'credentialsFilePath' to the path of 'credentialsFile'
 4. Run the servlet and start using the rest endpoints to make use of AWS services
+5. Assign your bucket name to the variable bucketName in dataStoreRestService.java
 
 Rest endpoints
 
