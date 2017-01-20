@@ -65,7 +65,7 @@ public class dataStoreRestService {
 	}
 	
 	@POST
-	@Path("/imageFile/upload")
+	@Path("/fileUpload")
 	@Consumes(MediaType.MULTIPART_FORM_DATA)
 	public Response uploadFile(
 		@FormDataParam("file") InputStream uploadedInputStream,
